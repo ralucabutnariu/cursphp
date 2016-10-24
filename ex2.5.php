@@ -7,6 +7,34 @@
  */
 
 /**
+ *
+ * Write a function that receives an array with personal data of 3 persons:
+ *   array(
+ *        0 => array(
+ *            0 => "andreea",
+ *            1 => "Ionescu"
+ *        ),
+ *        1 => array(
+ *            0 => "Alin",
+ *            1 => "PopEscu"
+ *        ),
+ *        2 => array(
+ *            0 => "ioanA",
+ *            1 => “andreescu"
+ *       )
+ *    )
+ *
+ *    and returns an array formated ("Lastname Firstname") and sorted alphabetically:
+ *
+ *  array(
+ *      0 => "Andreescu Ioana",
+ *      1 => "Ionescu Andreea",
+ *      2 => "Popescu Alin"
+ *  )
+ *
+ */
+
+/**
  * @brief Processing array elements and sorting the array
  * @param $personsArray
  * @return array
