@@ -34,7 +34,7 @@
  *
  */
 
-/**
+/** 
  * @brief Processing array elements and sorting the array
  * @param $personsArray
  * @return array
