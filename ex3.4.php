@@ -16,9 +16,14 @@ function compare($a, $b)
 {
     if ($a < $b) {
         return 'less than';
-    } elseif($a == $b) {
+    }
+
+    // Why not elseif ?
+    if($a == $b) {
         return 'equal to';
     }
+
+    // Why not else ?
     return 'greater than';
 }
 
