@@ -1,7 +1,8 @@
 <?php
 
 /**
-    Write a function that checks a person by age, gender and location and return of the form: “Name, Age_category, M/F, place” (e.g: “Mary, Child, F, nonBucharest”)
+ * Write a function that checks a person by age, gender and location and return of the form:
+   “Name, Age_category, M/F, place” (e.g: “Mary, Child, F, nonBucharest”)
     Age category:
     Child if age <= 13
     Teen if age > 14 and < 18
@@ -17,7 +18,7 @@
 
 $person = array(
     'name' => 'ionEL',
-    'age' => 0,
+    'age' => 6,
     'gender' => 'mAle',
     'location' => 'Ploiesti'
 );
@@ -112,7 +113,7 @@ function formatData($person)
 
 function formatName($name)
 {
-    return ucfirst(strtolower(trim($name)));
+    return ucwords(strtolower(trim($name)));
 }
 
 function formatAge($age)
